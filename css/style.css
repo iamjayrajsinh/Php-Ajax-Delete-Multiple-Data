@@ -1,0 +1,73 @@
+body{
+  font-family: arial;
+  background: #b2bec3;
+  padding:0;
+  margin: 0;
+}
+#main{
+  width: 800px;
+  margin: 0 auto;
+  background: white;
+  font-size: 19px;
+}
+#header{
+  background: #14598d;
+  color: #fff;
+  height: 130px;
+}
+h1{
+  line-height: 51px;
+  font-size: 38px;
+  text-align: center;
+  margin: 0px;
+  padding-top: 17px;
+}
+
+#sub-header{
+  background: #d3c69f;
+  padding: 10px 20px;
+}
+
+#table-data{
+  padding: 15px;
+  min-height: 400px;
+  vertical-align: top;
+}
+#table-data th{
+  background: #14598d;
+  color: white;
+}
+#table-data tr:nth-child(odd){
+  background: #ecf0f1;
+}
+
+#table-data input[type="checkbox"]{
+  width: 18px;
+  height: 18px;
+}
+#success-message,
+#error-message{
+  background: #DEF1D8;
+  color: green;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  display: none;
+  position: absolute;
+  right: 15px;
+  top: 15px;
+}
+#error-message{
+  background: #EFDCDD;
+  color: red;
+  
+}
+#delete-btn{
+  background:crimson;
+  color: #fff;
+  font-size: 20px;
+  border:0;
+  padding: 4px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+}
