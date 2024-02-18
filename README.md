@@ -16,7 +16,7 @@ You must have installed Xampp on your system to follow next steps, you can downl
 Clone the project
 
 ```bash
-  git clone git@github.com:iamjayrajsinh/Php-Ajax-Delete-Multiple-Date.git
+  git clone git@github.com:iamjayrajsinh/Php-Ajax-Delete-Multiple-Data.git
 ```
 
 Import database ( you will find .sql file in database folder, go to below link and import the database )
@@ -28,5 +28,5 @@ Import database ( you will find .sql file in database folder, go to below link a
 Run URL
 
 ```bash
-  http://localhost/php-ajax-delete-multiple-date
+  http://localhost/php-ajax-delete-multiple-data
 ```
