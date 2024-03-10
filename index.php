@@ -10,7 +10,7 @@
 <body>
   <div id="main">
     <div id="header">
-        <h1>Delete Multiple Data with <br>PHP & Ajax CRUD</h1>
+        <h1><?php echo "Delete Multiple Data with PHP & Ajax CRUD"; ?> Delete Multiple Data with <br>PHP & Ajax CRUD</h1>
     </div>
     <div id="sub-header">
       <button id="delete-btn">Delete</button>
